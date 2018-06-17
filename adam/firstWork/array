@@ -1,0 +1,13 @@
+
+
+hangman = ['h','hb','hbl','hblr','hblrl','hblrlr']
+
+wrong = 0
+
+wrong = wrong + 3
+
+print(hangman[wrong - 1])
+
+if wrong == 5:
+        print("Oops you lose")
+        break
